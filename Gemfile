@@ -51,7 +51,9 @@ group :development, :test do
   gem "faker"
   gem "pry-rails"
   gem "rspec-rails"
-  gem "rubocop"
+  gem "rubocop-rails"
+  gem "rubocop-rspec"
+  gem "rubocop-performance"
 
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
